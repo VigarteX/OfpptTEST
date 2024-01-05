@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ofppt</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="Ofppt_logo.webp" alt="Ofppt_logo" width="100px">
+            <h1>Options du secteur digital</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="file:///C:/Users/VigarteX/Desktop/haha/index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href="accueil">Accueil</a></li>
+                <li><a href="propos">A propos du Développement digital</a></li>
+                <li><a href="fi">Formation initial</a></li>
+                <li><a href="fc">Formation continue</a></li>
+                <li><a href="es">Espace stagiaire</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <ul>
+            <li id="d1" class="link">
+                <h2>DDOWFS</h2>
+                <p>Developpement option Web Full stack</p>
+                <ul>
+                    <li><a href="#" class="O">Objectils de la formation</a></li>
+                    <li><a href="#" class="C">Compétences</a></li>
+                    <li><a href="#" class="D">Débouchés</a></li>
+                    <li><a href="#" class="E">Employeurs</a></li>
+                </ul>
+            </li>
+            <li id="d2" class="link">
+                <h2>DDOAM</h2>
+                <p>Developpement Option Applications Mobiles</p>
+                <ul>
+                    <li><a href="#" class="O">Objectils de la formation</a></li>
+                    <li><a href="#" class="C">Compétences</a></li>
+                    <li><a href="#" class="D">Débouchés</a></li>
+                    <li><a href="#" class="E">Employeurs</a></li>
+                </ul>
+            </li>
+            <li id="d3" class="link">
+                <h2>DDOARV/RA</h2>
+                <p>Developpement Option Applications RV/RA</p>
+                <ul>
+                    <li><a href="#" class="O">Objectils de la formation</a></li>
+                    <li><a href="#" class="C">Compétences</a></li>
+                    <li><a href="#" class="D">Débouchés</a></li>
+                    <li><a href="#" class="E">Employeurs</a></li>
+                </ul>
+            </li>
+            <li id="d4">
+                <h2>Connexion</h2>
+                <form action="" >
+                <label for="Email">Email:</label>
+                <input type="Email" id="Email" name="Email" placeholder="Email" required>
+                <label for="p">Mot de passe:</label>
+                <input type="password" id="p" name="p" placeholder="Password" required>
+                <input type="submit" class="btn" value="Connexion"></form>
+                <a href="#" class="bc">Besion d'un compte?</a>
+                <a href="#" class="ins">S'inscrire</a>
+                <a href="#" class="pwd">Mot de passe oublié</a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="ps">Plan du site</a></li>
+            <li><a href="Con">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        const d1Els = document.querySelectorAll('.link');
+        d1Els.forEach(d1El => {
+            d1El.addEventListener('click', () => {
+                document.querySelector('.active')?.classList.remove('active');
+                d1El.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

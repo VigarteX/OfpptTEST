@@ -192,9 +192,6 @@ label{
     display: flex;
     justify-content: center;
 }
-footer{
-    display: block;
-}
 footer ul{
     background-color: black;
     margin: 0 10px;

@@ -58,6 +58,7 @@ section{
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    background-color: red;
 }
 section > ul{
     width: 100%;

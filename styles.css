@@ -222,7 +222,7 @@ footer ul li a:hover{
     border-color: rgb(202, 202, 202);
     transform: scale(1.05);
 }
-footer,section,.nav{
+footer,.nav{
     display: block;
 }
 

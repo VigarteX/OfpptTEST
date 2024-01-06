@@ -59,7 +59,7 @@ section > ul{
 }
 
 section{
-    height: 76%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -222,6 +222,10 @@ footer ul li a:hover{
     border-color: rgb(202, 202, 202);
     transform: scale(1.05);
 }
+footer,section,.nav,.header{
+    display: block;
+}
+
 footer{
     position: relative;
 }

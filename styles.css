@@ -231,18 +231,18 @@ footer ul li a:hover{
     }
     section{
         height: 100vh;
-    }
-}
-
-@media screen and (max-width: 509px) {
-    section{
-        height: 250vh;
         display: block;
         margin: 10px 0;
     }
     footer{
         display: block;
         margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    section{
+        height: 250vh;
     }
     .header h1{
         font-size: 20px;

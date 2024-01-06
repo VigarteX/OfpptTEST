@@ -222,6 +222,7 @@ footer ul li a:hover{
 }
 section,footer{
     display: block;
+    gap: 10px;
 }
 @media screen and (max-width: 900px) {
     section > ul{

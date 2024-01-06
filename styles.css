@@ -242,7 +242,7 @@ footer ul li a:hover{
 
 @media screen and (max-width: 509px) {
     section{
-        height: 250vh;
+        height: 205vh;
     }
     .header h1{
         font-size: 20px;

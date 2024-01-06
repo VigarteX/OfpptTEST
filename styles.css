@@ -220,10 +220,7 @@ footer ul li a:hover{
     border-color: rgb(202, 202, 202);
     transform: scale(1.05);
 }
-section,footer{
-    display: block;
-    gap: 10px;
-}
+
 footer{
     position: relative;
 }

@@ -242,6 +242,9 @@ footer ul li a:hover{
         display: block;
         margin: 10px 0;
     }
+    footer{
+        display: block;
+    }
     .header h1{
         font-size: 20px;
     }

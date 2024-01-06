@@ -224,6 +224,9 @@ section,footer{
     display: block;
     gap: 10px;
 }
+footer{
+    position: relative;
+}
 @media screen and (max-width: 900px) {
     section > ul{
         flex-wrap: wrap;
